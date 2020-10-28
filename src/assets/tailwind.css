@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    .grid-middle {
+      align-self: center;
+    }
+  }
+
+  .nav-item {
+    padding: 10px;
+  }
+  nav {
+    height: 100%;
+  }
+  nav > .nav-item {
+    text-transform: uppercase;
+  }
+  nav button {
+    transform: scale(0.5);
+  }
+}
+
+@import 'hamburger.css';
