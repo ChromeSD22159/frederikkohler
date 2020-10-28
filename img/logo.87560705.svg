@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 423 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="ArtBoard1" transform="matrix(1,0,0,1,-388.934,-120.47)">
+        <rect x="388.934" y="120.47" width="422.84" height="102.314" style="fill:none;"/>
+        <g transform="matrix(0.359467,0,0,0.359467,367.326,114.112)">
+            <g transform="matrix(4.39877,0,0,4.39877,42.9554,10.4417)">
+                <path d="M10,9L45,9L30,34L45,59L28.084,59L28.194,45.009L21.285,34L28.393,22.039L17.863,22.039L10,9Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(4.39877,0,0,4.39877,52.9182,10.4417)">
+                <path d="M45,9L60,9L44.786,34L60,59L45,59L30,34L45,9Z" style="fill:white;"/>
+            </g>
+            <g transform="matrix(1.15231,0,0,1.15231,18.9773,-5.21937)">
+                <text x="338.459px" y="128.577px" style="font-family:'SourceSansPro-SemiBold', 'Source Sans Pro', sans-serif;font-weight:600;font-size:86.911px;fill:white;">FREDERIK K<tspan x="777.098px " y="128.577px ">O</tspan>HLER</text>
+                <text x="338.459px" y="215.488px" style="font-family:'SourceSansPro-SemiBold', 'Source Sans Pro', sans-serif;font-weight:600;font-size:48.284px;fill:white;">FRONTEND &amp; WEBENTWICKLER</text>
+            </g>
+        </g>
+    </g>
+</svg>
