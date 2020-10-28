@@ -4,16 +4,6 @@
 -->
 <template>
   <main>
-    <SectionLeft
-      title="Hier kommt der Title hinein!"
-      headline="Ich bin hier die Headline!!!"
-      content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea"
-      button="Ich bin ein Button"
-      imageSrc_sm="framework-lg.png"
-      imageSrc_lg="framework-lg.png"
-      imageAlt="iPhone mit Screenshot"
-    />
-
     <SectionRight
       title="Hier kommt der Title hinein!"
       headline="Ich bin hier
@@ -22,6 +12,15 @@
     elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
     aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
     dolores et ea"
+      button="Ich bin ein Button"
+      imageSrc_sm="framework-lg.png"
+      imageSrc_lg="framework-lg.png"
+      imageAlt="iPhone mit Screenshot"
+    />
+    <SectionLeft
+      title="Hier kommt der Title hinein!"
+      headline="Ich bin hier die Headline!!!"
+      content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea"
       button="Ich bin ein Button"
       imageSrc_sm="framework-lg.png"
       imageSrc_lg="framework-lg.png"
