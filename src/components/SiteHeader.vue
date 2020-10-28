@@ -5,9 +5,20 @@
         class="navbar m-5 p-5 sm:max-w-screen-xl mx-auto grid grid-cols-2 grid-row-1"
       >
         <div class="flex justify-start">
-          <a href="/de/" class="Logo">
-            <img :src="logo" alt="Frederik Kohler Logo" class="logo" />
-          </a>
+          <router-link class="Logo" to="/">
+            <img
+              class="img-right"
+              v-if="getWidth < 450"
+              :src="require('@/assets/images/' + imageSrc_sm)"
+              :alt="imageAlt"
+            />
+            <img
+              class="img-right"
+              v-else-if="getWidth > 450"
+              :src="require('@/assets/images/' + imageSrc_lg)"
+              :alt="imageAlt"
+            />
+          </router-link>
         </div>
         <div class="flex justify-end">
           <nav>
@@ -82,11 +93,18 @@
 </template>
 
 <script>
-import logo from '../assets/images/logo.svg'
 export default {
+  computed: {
+    getWidth() {
+      return window.innerWidth
+    },
+  },
+  props: {
+    imageSrc_sm: String,
+    imageSrc_lg: String,
+  },
   data: function () {
     return {
-      logo: logo,
       isActive: false,
       mobilNavOpen: false,
     }

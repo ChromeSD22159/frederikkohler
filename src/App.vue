@@ -1,5 +1,5 @@
 <template>
-  <SiteHeader />
+  <SiteHeader imageSrc_sm="fk_logo_sm.png" imageSrc_lg="fk_logo_sm.png" />
 
   <router-view v-slot="{ Component }">
     <transition name="fade">

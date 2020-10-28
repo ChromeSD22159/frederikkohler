@@ -1,6 +1,6 @@
 <!-- 
-   <SectionLeft title="" button="" content=" " imageSrc="" headline="" />
-   <SectionRight title="" button="" content=" " imageSrc="" headline="" />
+   <SectionLeft title="" button="" content=" " image_src_sm="" headline="" />
+   <SectionRight title="" button="" content=" " image_src_sm="" headline="" />
 -->
 <template>
   <main>
@@ -9,7 +9,8 @@
       headline="Ich bin hier die Headline!!!"
       content="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea"
       button="Ich bin ein Button"
-      imageSrc="iphone.png"
+      imageSrc_sm="framework-lg.png"
+      imageSrc_lg="framework-lg.png"
       imageAlt="iPhone mit Screenshot"
     />
 
@@ -22,7 +23,8 @@
     aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
     dolores et ea"
       button="Ich bin ein Button"
-      imageSrc="framework.png"
+      imageSrc_sm="framework-lg.png"
+      imageSrc_lg="framework-lg.png"
       imageAlt="iPhone mit Screenshot"
     />
   </main>

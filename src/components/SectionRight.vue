@@ -8,7 +8,14 @@
         <div class="CardContainer">
           <img
             class="img-right"
-            :src="require('@/assets/images/' + imageSrc)"
+            v-if="getWidth < 450"
+            :src="require('@/assets/images/' + imageSrc_sm)"
+            :alt="imageAlt"
+          />
+          <img
+            class="img-right"
+            v-else-if="getWidth > 450"
+            :src="require('@/assets/images/' + imageSrc_lg)"
             :alt="imageAlt"
           />
         </div>
@@ -43,15 +50,18 @@
 
 <script>
 export default {
+  computed: {
+    getWidth() {
+      return window.innerWidth
+    },
+  },
   props: {
     title: String,
     headline: String,
     content: String,
     button: String,
-    imageSrc: {
-      type: String,
-      //default: require('@/assets/images/framework.png'),
-    },
+    imageSrc_sm: String,
+    imageSrc_lg: String,
     imageAlt: String,
     hideLeft: Boolean,
     hideRight: Boolean,
